@@ -72,7 +72,6 @@ The application follows a simple modular Android architecture where each screen 
 ## Screenshots
 
 <img width="397" height="828" alt="image" src="https://github.com/user-attachments/assets/f250f19a-d8b2-42cd-afa4-c8d467af6ba3" />
-<img width="397" height="828" alt="image" src="https://github.com/user-attachments/assets/20090832-7caf-4edb-bb9d-5bd692c2140c" />
 <img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/8410bd1c-903b-4189-96a5-d38f35514a21" />
 <img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/6d5e279b-48ea-40f5-a553-0f304cc2a991" />
 <img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/45f9b306-def9-4822-b2c5-b4b8924fa43d" />
