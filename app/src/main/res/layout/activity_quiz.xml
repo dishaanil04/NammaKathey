@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF3B0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/txtQuizTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hero Quiz"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#B71C1C"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/txtQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnOption1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option 1"
+            android:backgroundTint="#B71C1C"
+            android:textColor="#FFFFFF"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btnOption2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option 2"
+            android:backgroundTint="#B71C1C"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnOption3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option 3"
+            android:backgroundTint="#B71C1C"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Badge Rules: Gold = 5/5, Silver = 3 or 4, Bronze = 1 or 2"
+            android:textSize="14sp"
+            android:textColor="#3D2B1F"
+            android:gravity="center"
+            android:layout_marginTop="28dp" />
+
+    </LinearLayout>
+
+</ScrollView>

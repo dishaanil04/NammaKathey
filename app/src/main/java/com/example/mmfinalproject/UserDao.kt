@@ -1,0 +1,15 @@
+package com.example.mmfinalproject
+
+import androidx.room.Dao
+import androidx.room.Insert
+import androidx.room.Query
+
+@Dao
+interface UserDao {
+
+    @Insert
+    fun insertUser(user: UserEntity)
+
+    @Query("SELECT * FROM users WHERE email = :email LIMIT 1")
+    fun getUserByEmail(email: String): UserEntity?
+}
